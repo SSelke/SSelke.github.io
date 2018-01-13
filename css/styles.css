@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body{
+	font-family: lato;
+	color: #93a4aa;
+	height: 100%;
+}
+
+ul li a {
+	height: 55px; 
+	width: 55px;
+	margin-right: 20px;
+	color: white;
+	display: block;
+	transition: 0.2s linear;
+}
+
+li:hover a {
+	width: 80px;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+}
+
+.fa-twitter:hover {
+	color: #00aced;
+}
+
+.fa-instagram:hover {
+	background: #1a2a6c;  /* fallback for old browsers */
+	background: linear-gradient( #400080, transparent), linear-gradient( 200deg, #d047d1, #ff0000, #ffff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.media {
+	display: block;
+	position: absolute;
+	padding-left: 3px;
+	left: 0;
+}
+
+.splash {
+	background: url(https://cdn.pixabay.com/photo/2016/03/26/13/09/organic-1280538_960_720.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	text-align: center;
+	min-width: 30%;
+	min-height: 50%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#content {
+	overflow: auto;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+} 
+
+#drop-down {
+	overflow: auto;
+	margin-top: 2%;
+	display: inline-block;
+	bottom: 0;
+	position: relative;
+	text-decoration: none;
+}
+
+/*#252a30; footer color*/
+
+.jumbotron {
+	width: 100%;
+	height: 100%;
+}
+
+.skill-section {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.skill-row {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/*.skill-block {
+	display: flex;
+	margin: 0 auto;
+}*/
+
+.skill-img {
+	display: block;
+    margin: 0 auto;
+    padding: auto;
+    float: none;
+}
+
+.skill-para {
+	display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding: auto;
+    float: none;
+}
+
+#skill-header {
+	text-align: center;
+	color: black;
+	padding-bottom: 80px;
+}
+
+div#drop-down a {
+	font-size: 20px;
+	color: white;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 5em;
+  color: #f7f7f7;
+  text-transform: uppercase;
+}
+
+h2 {
+	color: #fff;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
