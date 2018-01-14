@@ -66,3 +66,16 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+
+function hideButton() {
+    var x = document.querySelector(".button-hide");
+    var phoneNumber = document.querySelector("#number");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+      phoneNumber.style.display = "block";
+        x.style.display = "none";
+    }
+}
