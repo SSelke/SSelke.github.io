@@ -1,0 +1,571 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"lg",
+				"col-lg-12"
+			],
+			[
+				"sec",
+				"section\tTag"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"test",
+				"text-align-last"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"num",
+				"numSquares"
+			],
+			[
+				"easy",
+				"Easy"
+			],
+			[
+				"add",
+				"add"
+			],
+			[
+				"mode",
+				"modeButtons"
+			],
+			[
+				"messa",
+				"messageDisplay"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"picked",
+				"pickedColor"
+			],
+			[
+				"pciked",
+				"pickedColor"
+			],
+			[
+				"clicked",
+				"clickedColor"
+			],
+			[
+				"win",
+				"winningScore"
+			],
+			[
+				"wi",
+				"winningScore"
+			],
+			[
+				"winn",
+				"winningScoreDisplay"
+			],
+			[
+				"p2",
+				"p2Display"
+			],
+			[
+				"p1",
+				"p1Display"
+			],
+			[
+				"arr",
+				"arrayUniform1"
+			],
+			[
+				"coun",
+				"countOdd"
+			],
+			[
+				"gue",
+				"guessNum"
+			],
+			[
+				"nam",
+				"nameLast"
+			],
+			[
+				"name",
+				"nameFirst"
+			],
+			[
+				"s",
+				"script\tTag"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"border-to",
+				"border-top"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"border-t",
+				"border-top"
+			],
+			[
+				"m",
+				"middleUp"
+			],
+			[
+				"middle",
+				"middleSide"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"style-",
+				"style-container"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"border-top",
+				"border-top-left-radius"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"upper-gr",
+				"upper-norwegian"
+			],
+			[
+				"upper-r",
+				"upper-greek"
+			],
+			[
+				"upper",
+				"upper-armenian"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"marin",
+				"margin-right"
+			],
+			[
+				"a",
+				"alt\tAttr"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"repeat",
+				"repeat-x"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package re",
+		"selected_items":
+		[
+			[
+				"package re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Todo-List/assets/css/todos.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Todo-List/index.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Todo-List/assets/js/todos.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Bootstrap/app.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Bootstrap/index.html",
+		"/C/Users/Scott Selke/Documents/Portfolio Page/js/portfolio.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Bootstrap/navbars.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/patatap/css/circles.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/patatap/circles.html",
+		"/C/Users/Scott Selke/AppData/Roaming/Sublime Text 3/Packages/HTML/HTML.sublime-syntax",
+		"/C/Users/Scott Selke/Desktop/HTML.sublime-syntax2",
+		"/C/Users/Scott Selke/Downloads/paperjs-v0.11.5/examples/Animated/Space.html",
+		"/C/Users/Scott Selke/Documents/GitHub/todo-list/assets/js/todos.js",
+		"/C/Users/Scott Selke/Documents/GitHub/scottselke.github.io/index.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/jQuery/events.html",
+		"/C/Users/Scott Selke/Downloads/jquery-3.2.1.js",
+		"/C/Users/Scott Selke/Downloads/jquery-3.2.1.min.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/jQuery/methods.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/jQuery/jQuery Demo.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/jQuery/jQueryDemo.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Color_Picker_Game/colorGame.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Color_Picker_Game/colorGame.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Color_Picker_Game/colorGame.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/DOM Manipulation/todo.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/DOM Manipulation/todo.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/DOM Manipulation/todo.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/DOM Manipulation/score.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/DOM Manipulation/score.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/DOM Manipulation/score.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/DOM Manipulation/exercise1.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/DOM Manipulation/exercise1.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/arrayExercise.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/arrayExercise.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/toDo.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/toDoList.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/functionsExercise.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/functionsExercise.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/annoy.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/annoying.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/whileLoops.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/whileLoop.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/guessing.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/guessingGame.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/stalker.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/scriptIndex.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/script.js",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Javascript Basics/index.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Bootstrap/grids.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/HTML/gallery.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Bootstrap/gallery.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Bootstrap/bootstrap.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/Bootstrap/basics.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/CSS/blogSS.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/HTML/blog.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/CSS/photos.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/HTML/photoGrid.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/CSS/tttSS.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/HTML/tictactoe.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/CSS/fontsSS.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/HTML/fonts.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/CSS/styles.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/CSS/selectors.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/HTML/selectorsExercise.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/HTML/specificity.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/HTML/demo.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/CSS/toDoStyleSheet.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/HTML/toDoList.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/CSS/aboutMeStyleSheet.css",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/CSS/HTML/aboutMe.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/HTML/formsExercise.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/HTML/inputs.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/HTML/forms.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/HTML/pokemonTable.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/HTML/tables.html",
+		"/C/Users/Scott Selke/Documents/Udemy/Web Development -Colt/HTML/firstPage.html",
+		"/C/xampp/htdocs/myfirstfile.php",
+		"/C/Users/Scott Selke/Desktop/Finance_Website/index.html",
+		"/C/MAMP/htdocs/style/main.css",
+		"/C/MAMP/htdocs/login.php",
+		"/C/MAMP/htdocs/index.html",
+		"/C/Users/Scott Selke/Documents/HTML Projects/Examples/Navegation_bars/Stationary_NavBar/style/main.css",
+		"/C/MAMP/htdocs/style1/main.css",
+		"/C/MAMP/htdocs/styleSheet/main.css",
+		"/C/MAMP/htdocs/main.css",
+		"/C/MAMP/htdocs/css/main.css",
+		"/C/MAMP/htdocs/pages/pages1.html",
+		"/C/MAMP/htdocs/second_page.html"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "styles.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
