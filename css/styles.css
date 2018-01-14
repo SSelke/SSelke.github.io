@@ -14,24 +14,8 @@ body{
 	height: 100%;
 }
 
-ul li a {
-	height: 55px; 
-	width: 55px;
-	margin-right: 20px;
-	color: white;
-	display: block;
-	transition: 0.2s linear;
-}
-
-li:hover a {
-	width: 80px;
-	border-top-right-radius: 10%;
-	border-bottom-right-radius: 10%;
-}
-
-div#drop-down a {
-	font-size: 20px;
-	color: white;
+section {
+	padding: 50px 0;
 }
 
 hr {
@@ -55,15 +39,58 @@ span {
   animation: caret 1s steps(1) infinite;
 }
 
-.fa-twitter:hover {
-	color: #00aced;
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }
 
-.fa-instagram:hover {
-	background: #1a2a6c;  /* fallback for old browsers */
-	background: linear-gradient( #400080, transparent), linear-gradient( 200deg, #d047d1, #ff0000, #ffff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+div#drop-down a {
+	font-size: 20px;
+	color: white;
+}
+
+ul li a {
+	height: 55px; 
+	width: 55px;
+	margin-right: 20px;
+	color: white;
+	display: block;
+	transition: 0.2s linear;
+}
+
+button:focus {
+	outline: 0 !important;
+	background: none;
+}
+
+li:hover a {
+	width: 80px;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+}
+
+.splash {
+	background: url(https://cdn.pixabay.com/photo/2016/03/26/13/09/organic-1280538_960_720.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	text-align: center;
+	min-width: 30%;
+	min-height: 50%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.splash-button {
+	background: none;
+	color: #fff;
+	border: 4px solid #fff;
+	border-radius:24px;
 }
 
 .media {
@@ -80,21 +107,89 @@ span {
     }
 }
 
-.splash {
-	background: url(../img/splash.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	text-align: center;
-	min-width: 1200px;
-	min-height: 50%;
+.fa-twitter:hover {
+	color: #00aced;
+}
+
+.fa-instagram:hover {
+	background: #1a2a6c;  /* fallback for old browsers */
+	background: linear-gradient( #400080, transparent), linear-gradient( 200deg, #d047d1, #ff0000, #ffff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.about-img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.jumbotron {
 	width: 100%;
 	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
+
+.skill-section {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.row {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.skill-block {
+	text-align: center;
+}
+
+div.skill-block p {
+	text-align: center;
+}
+
+.skill-img {
+	display: block;
+    margin: 0 auto;
+    padding: auto;
+    float: none;
+}
+
+.skill-para {
+	display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding: auto;
+    float: none;
+    color: #252a30;
+}
+
+.about-section {
+	color: #fff;
+	background-color: #fff;
+}
+
+.about-para {
+	font-size: 21px;
+    font-weight: 200;
+    color: #252a30;
+}
+
+.section-hr {	
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	border-top: 5px solid #f8f8f8;
+	color: #fff;
+}
+
+.skill-header {
+	text-align: center;
+	color: black;
+	padding-bottom: 80px;
+}
+
 
 #content {
 	overflow: auto;
@@ -113,51 +208,3 @@ span {
 }
 
 /*#252a30; footer color*/
-
-.jumbotron {
-	width: 100%;
-	height: 100%;
-}
-
-.skill-section {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.skill-row {
-	max-width: 1000px;
-	margin: 0 auto;
-}
-
-/*.skill-block {
-	display: flex;
-	margin: 0 auto;
-}*/
-
-.skill-img {
-	display: block;
-    margin: 0 auto;
-    padding: auto;
-    float: none;
-}
-
-.skill-para {
-	display: block;
-    margin: 0 auto;
-    padding-top: 15px;
-    padding: auto;
-    float: none;
-}
-
-#skill-header {
-	text-align: center;
-	color: black;
-	padding-bottom: 80px;
-}
-
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
-}

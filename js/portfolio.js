@@ -1,10 +1,3 @@
-//This fixes sticky hover effects on mobile devices
-var touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
-if (!touchsupport){ // browser doesn't support touch
-    document.documentElement.className += " non-touch"
-}
-
-//This is the Text writer for the h4
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
   var dataText = [ "Front-End Developer", "Problem Solver", "Hard-Worker", "Team-Mate & Friend"];
@@ -30,6 +23,7 @@ document.addEventListener('DOMContentLoaded',function(event){
   }
   // start a typewriter animation for a text in the dataText array
    function StartTextAnimation(x) {
+    
      if (typeof dataText[x] == 'undefined'){
         setTimeout(function() {
           StartTextAnimation(0);
@@ -46,4 +40,29 @@ document.addEventListener('DOMContentLoaded',function(event){
   }
   // start the text animation
   StartTextAnimation(0);
+});
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
 });
