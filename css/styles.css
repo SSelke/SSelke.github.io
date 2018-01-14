@@ -6,6 +6,7 @@
 html, body {
 	margin: 0;
 	height: 100%;
+	color: #fff;
 }
 
 body{
@@ -30,10 +31,6 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
-	color: #fff;
-}
-
 span {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
@@ -45,33 +42,19 @@ span {
   }
 }
 
-div#drop-down a {
-	font-size: 20px;
-	color: white;
-}
-
-ul li a {
-	height: 55px; 
-	width: 55px;
-	margin-right: 20px;
-	color: white;
-	display: block;
-	transition: 0.2s linear;
-}
-
 button:focus {
 	outline: 0 !important;
 	background: none;
 }
 
-li:hover a {
-	width: 80px;
-	border-top-right-radius: 10%;
-	border-bottom-right-radius: 10%;
-}
+/*=============================================
+	THIS IS FOR THE WELCOME SPLASH SCREEN
+===============================================	
+*/
 
+/*Main Div*/
 .splash {
-	background: url(../img/splash.jpg);
+	background: url('../img/splash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -86,12 +69,19 @@ li:hover a {
 	justify-content: center;
 }
 
+/*Button That Anchors to About Section*/
 .splash-button {
 	background: none;
 	color: #fff;
 	border: 4px solid #fff;
 	border-radius:24px;
+	transition: color 0.2s 0.3s, background-color 0.3s ease-in-out, width 0.3s 0s;
 }
+
+/*======================================================
+		Div that contains Social Media Links
+========================================================
+*/
 
 .media {
 	display: block;
@@ -101,6 +91,21 @@ li:hover a {
 	top: 45%;
 }
 
+ul li a {
+	height: 55px; 
+	width: 55px;
+	margin-right: 20px;
+	color: white;
+	display: block;
+	transition: 0.2s linear;
+}
+
+li:hover a {
+	width: 80px;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+}
+/*This hides the Social Media Links on Mobile Devices*/
 @media only screen and (max-width: 680px) {
     .media {
         display: none;
@@ -117,12 +122,40 @@ li:hover a {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+/*======================================================
+========================================================
+*/
+
+.title-header {
+	text-align: center;
+	color: black;
+	padding-bottom: 80px;
+}
+
+.about-block {
+	position: relative;
+}
 
 .about-img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 10px;
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
-	margin: 0 auto;
+}
+
+.about-section {
+	color: #fff;
+	background-color: #fff;
+}
+
+.about-para {
+	display: block;
+    text-align: center;
+	font-size: 21px;
+    font-weight: 200;
+    color: #252a30;
 }
 
 .jumbotron {
@@ -165,17 +198,6 @@ div.skill-block p {
     color: #252a30;
 }
 
-.about-section {
-	color: #fff;
-	background-color: #fff;
-}
-
-.about-para {
-	font-size: 21px;
-    font-weight: 200;
-    color: #252a30;
-}
-
 .section-hr {	
 	width: 80%;
 	text-align: center;
@@ -184,10 +206,39 @@ div.skill-block p {
 	color: #fff;
 }
 
-.skill-header {
-	text-align: center;
-	color: black;
-	padding-bottom: 80px;
+.projects-row {
+	max-width: 60%;
+}
+
+.projects-para {
+	display: block;
+    text-align: center;
+	font-size: 21px;
+    font-weight: 200;
+    color: #252a30;
+}
+
+.image {
+	width: 100%;
+  	height: 250px;
+  	background-size: cover;
+  	background-position: center center;
+}
+
+.circle {
+	background-image: url('../img/circle.png');
+}
+
+.gallary {
+	background-image: url('../img/gallary.png');
+}
+
+.todo{
+	background-image: url('../img/to-do.png');
+}
+
+.rgb {
+	background-image: url('../img/rgb.png');
 }
 
 
@@ -197,14 +248,5 @@ div.skill-block p {
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
 } 
-
-#drop-down {
-	overflow: auto;
-	margin-top: 2%;
-	display: inline-block;
-	bottom: 0;
-	position: relative;
-	text-decoration: none;
-}
 
 /*#252a30; footer color*/
