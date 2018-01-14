@@ -1,3 +1,10 @@
+//This fixes sticky hover effects on mobile devices
+var touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
+if (!touchsupport){ // browser doesn't support touch
+    document.documentElement.className += " non-touch"
+}
+
+//This is the Text writer for the h4
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
   var dataText = [ "Front-End Developer", "Problem Solver", "Hard-Worker", "Team-Mate & Friend"];
