@@ -83,6 +83,10 @@ button:focus {
 				width 0.3s 0s;
 }
 
+.splash-button i {
+	color: #FED766;
+}
+
 /*======================================================
 		Div that contains Social Media Links
 ========================================================
@@ -117,15 +121,7 @@ li:hover a {
     }
 }
 
-.fa-instagram {
-	color: white;
-}
-
-.fa-twitter {
-	color: white;
-}
-
-.fa-github {
+.fa {
 	color: white;
 }
 
@@ -142,6 +138,10 @@ li:hover a {
 
 .fa-github:hover {
 	color: #93a4aa;
+}
+
+.fa-linkedin:hover {
+	color: #0077B5;
 }
 /*======================================================
 ========================================================
