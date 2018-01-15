@@ -66,6 +66,7 @@ button:focus {
 	background-position: center;
 	position: relative;
 	text-align: center;
+	margin: 0 auto;
 	min-width: 30%;
 	min-height: 50%;
 	width: 100%;
@@ -376,7 +377,7 @@ button.button-hide {
 #content {
 	
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 	overflow: auto;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
