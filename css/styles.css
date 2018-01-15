@@ -333,6 +333,7 @@ footer div p {
 
 div.contact {
 	position: relative;
+	margin: 0 auto;
 	min-width: 30%;
 	min-height: 50%;
 	width: 100%;
