@@ -24,24 +24,14 @@ hr {
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
+h1, h2, h3, h6 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #f7f7f7;
+}
+
 h1 {
  	font-size: 5em;
-  	color: #f7f7f7;
- 	text-transform: uppercase;
-}
-
-h2 {
-	color: #f7f7f7;
- 	text-transform: uppercase;
- 	text-align: center;
-}
-
-h3 {
-	text-align: center;
-}
-
-h6 {
-	text-align: center;
 }
 
 span {
@@ -67,6 +57,9 @@ button:focus {
 
 /*Main Div*/
 .splash {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background: url('../img/splash.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -77,17 +70,14 @@ button:focus {
 	min-height: 50%;
 	width: 100%;
 	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 /*Button That Anchors to About Section*/
 .splash-button {
-	background: none;
-	color: #FED766;
 	border: 4px solid #FED766;
 	border-radius:24px;
+	background: none;
+	color: #FED766;
 	transition: color 0.2s 0.3s, 
 				background-color 0.3s ease-in-out, 
 				width 0.3s 0s;
@@ -107,11 +97,11 @@ button:focus {
 }
 
 ul li a {
+	display: block;
 	height: 55px; 
 	width: 55px;
 	margin-right: 20px;
 	color: white;
-	display: block;
 	transition: 0.2s linear;
 }
 
@@ -157,15 +147,12 @@ li:hover a {
 ========================================================
 */
 
-.body-hr {
-	width: 100%;
-}
-
+/*This Is the About Section CSS*/
 .title-header {
 	display: block;
 	text-align: center;
-	color: black;
 	padding-bottom: 10px;
+	color: black;
 }
 
 .about-row {
@@ -177,7 +164,7 @@ li:hover a {
 	margin: 20px 0;
 }
 
-div.zelda img {
+.zelda img {
 	display: block;
 	margin: 0 auto;
 	min-width: 250px;
@@ -199,8 +186,8 @@ div.zelda img {
 }
 
 .about-section {
-	color: #fff;
 	background-color: #fff;
+	color: #fff;
 }
 
 .about-para {
@@ -211,6 +198,11 @@ div.zelda img {
     color: #252a30;
 }
 
+/*======================================================
+========================================================
+*/
+
+/*This is the Skill Section CSS*/
 .jumbotron {
 	width: 100%;
 	height: 100%;
@@ -251,14 +243,11 @@ div.skill-block p {
     color: #252a30;
 }
 
-.section-hr {	
-	width: 80%;
-	text-align: center;
-	margin: 0 auto;
-	border-top: 5px solid #f8f8f8;
-	color: #fff;
-}
+/*======================================================
+========================================================
+*/
 
+/*This is the Projects Section CSS*/
 .projects-row {
 	max-width: 60%;
 }
@@ -272,10 +261,10 @@ div.skill-block p {
 }
 
 .image {
-	width: 100%;
-  	height: 250px;
   	background-size: cover;
   	background-position: center center;
+  	width: 100%;
+  	height: 250px;
 }
 
 .circle {
@@ -294,6 +283,11 @@ div.skill-block p {
 	background-image: url('../img/rgb.PNG');
 }
 
+/*======================================================
+========================================================
+*/
+
+/*This is the Hire-Me Section*/
 .hire-me {
 	background: #FED766; 
 }
@@ -309,10 +303,14 @@ div.skill-block p {
 	color: #252a30;
 }
 
+/*======================================================
+========================================================
+*/
+
 footer {
+	background: #252a30;
 	width: 100%;
 	height: 10%;
-	background: #252a30;
 }
 
 footer div {
@@ -335,23 +333,37 @@ footer div p {
 
 div.contact {
 	position: relative;
-	text-align: center;
 	min-width: 30%;
 	min-height: 50%;
 	width: 100%;
 	height: 100%;
+	text-align: center;
 	align-items: center;
 	justify-content: center;
 }
 
-button.button-hide {
-	background: none;
-	color: #252a30;
+
+
+button {
 	border: 3px solid #252a30;
 	border-radius:24px;
+	background: none;
 	transition: color 0.2s 0.3s, 
 				background-color 0.3s ease-in-out, 
 				width 0.3s 0s;
+}
+
+button.button-hide {
+	border: 3px solid #252a30;
+	border-radius:24px;
+	background: none;
+	color: #252a30;
+	
+}
+
+.splash-button {
+	border: 3px solid #FED766;
+	color: #FED766;
 }
 
 #number {
@@ -366,5 +378,3 @@ button.button-hide {
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
 } 
-
-/*#252a30; footer color*/
