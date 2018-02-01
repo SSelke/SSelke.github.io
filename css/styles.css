@@ -252,6 +252,14 @@ div.skill-block p {
 	max-width: 60%;
 }
 
+.project-block .thumbnail:hover{
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+
 .projects-para {
 	display: block;
     text-align: center;
